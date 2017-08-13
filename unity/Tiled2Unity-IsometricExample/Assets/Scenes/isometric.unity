@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 3
+  m_AmbientMode: 4
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -108,6 +108,53 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &7637816
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4750278037255212, guid: 4ee9c2fceeaf31c429d0dd697211fec2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1400
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750278037255212, guid: 4ee9c2fceeaf31c429d0dd697211fec2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -768
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750278037255212, guid: 4ee9c2fceeaf31c429d0dd697211fec2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.71875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750278037255212, guid: 4ee9c2fceeaf31c429d0dd697211fec2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750278037255212, guid: 4ee9c2fceeaf31c429d0dd697211fec2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750278037255212, guid: 4ee9c2fceeaf31c429d0dd697211fec2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750278037255212, guid: 4ee9c2fceeaf31c429d0dd697211fec2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750278037255212, guid: 4ee9c2fceeaf31c429d0dd697211fec2, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114485643490962068, guid: 4ee9c2fceeaf31c429d0dd697211fec2,
+        type: 2}
+      propertyPath: AttachedMap
+      value: 
+      objectReference: {fileID: 1272731568}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4ee9c2fceeaf31c429d0dd697211fec2, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1147857611
 Prefab:
   m_ObjectHideFlags: 0
@@ -154,6 +201,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a96c7611e7faf154ea8e8e59204bef89, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1272731568 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114806338206387956, guid: a96c7611e7faf154ea8e8e59204bef89,
+    type: 2}
+  m_PrefabInternal: {fileID: 1147857611}
+  m_Script: {fileID: 11500000, guid: c0619e460a775cc458d37cb4a214a189, type: 3}
 --- !u!1 &1945141986
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +267,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 500
+  orthographic size: 300
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -237,7 +290,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1945141986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 924.7716, y: -528.4799, z: -1944.075}
+  m_LocalPosition: {x: 1008.61005, y: -547.8149, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

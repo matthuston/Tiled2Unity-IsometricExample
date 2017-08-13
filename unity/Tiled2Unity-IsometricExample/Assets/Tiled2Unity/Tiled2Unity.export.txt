@@ -7,3 +7,9 @@
 		version="1.0.12.3"
 	/>
 </Tiled2UnityImporter>
+
+
+I would like to learn more about this service for a Women's College team. Specifically, what is the turn around time per game?
+
+
+I would tell him the deadline is customizable to the hour with a minimum duration of two hours. If some players don't respond you can extend the deadline as many times as you like to catch stragglers. You (the coach) sets the deadline, not us here at After Action, if that wasn't clear. Deadlines are generated as a # of hours from the sending of the events (i.e. 2, 12, 24 or whatever you want to set). 
