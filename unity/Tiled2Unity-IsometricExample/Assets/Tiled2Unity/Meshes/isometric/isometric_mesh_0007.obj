@@ -1,0 +1,34 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'isometric_mesh_0007.obj'
+
+# Vertices (Count = 12)
+v -1472 -640 -0.5
+v -1600 -640 -0.5
+v -1600 -448 -0.5
+v -1472 -448 -0.5
+v -768 -544 -0.40625
+v -896 -544 -0.40625
+v -896 -352 -0.40625
+v -768 -352 -0.40625
+v -960 -896 -0.75
+v -1088 -896 -0.75
+v -1088 -704 -0.75
+v -960 -704 -0.75
+
+# Texture cooridinates (Count = 4)
+vt 0 0
+vt 1 0
+vt 1 1
+vt 0 1
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g isometric_mesh_0007
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+f 5/1/1 6/2/1 7/3/1 8/4/1
+f 9/1/1 10/2/1 11/3/1 12/4/1
+
