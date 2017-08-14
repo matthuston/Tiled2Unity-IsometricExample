@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.0.2" orientation="isometric" renderorder="right-down" width="16" height="16" tilewidth="128" tileheight="64" nextobjectid="1">
  <tileset firstgid="1" source="isometric.tsx"/>
- <tileset firstgid="8" source="isometric.tsx"/>
  <layer name="floor" width="16" height="16">
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
